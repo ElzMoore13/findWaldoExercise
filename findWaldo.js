@@ -2,9 +2,9 @@ function findWaldo(arr, found) {
 
   var loopNum = 0;
   //use forEach loop instead
-  arr.forEach(function(iPerson){
+  arr.forEach(function(person){
 
-    if (iPerson === 'Waldo') {
+    if (person === 'Waldo') {
       found(loopNum);
     }
     loopNum += 1;
