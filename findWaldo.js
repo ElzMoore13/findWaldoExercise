@@ -1,10 +1,16 @@
 function findWaldo(arr, found) {
+
+  var loopNum = 0;
   //use forEach loop instead
-  arr.forEach(function(person){
-    if (arr[i] === 'Waldo') {
-      found(i);
+  arr.forEach(function(iPerson){
+
+    if (iPerson === 'Waldo') {
+      found(loopNum);
     }
+    loopNum += 1;
+
   });
+
 }
 
 function actionWhenFound(index) {
